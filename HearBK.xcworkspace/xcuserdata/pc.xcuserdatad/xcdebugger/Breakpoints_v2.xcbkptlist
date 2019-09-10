@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HearBK/Dashboard/EditProfileVC.swift"
+            timestampString = "572372596.819577"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "638"
+            endingLineNumber = "638"
+            landmarkName = "clickToDone(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HearBK/Custom Class/AppCommon/APIManager.swift"
+            timestampString = "572372596.819645"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "942"
+            endingLineNumber = "942"
+            landmarkName = "serviceCallToMyProfileExperience(_:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HearBK.APIManager.serviceCallToMyProfileExperience(Swift.Dictionary&lt;Swift.String, Any&gt;, () -&gt; ()) -&gt; ()"
+                  moduleName = "HearBK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pc/Desktop/vishal/Hash%20Project/HearBK/Progress/HearBK/HearBK/Custom%20Class/AppCommon/APIManager.swift"
+                  timestampString = "572418143.120149"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "943"
+                  endingLineNumber = "943"
+                  offsetFromSymbolStart = "315">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Any&gt;) -&gt; () in HearBK.APIManager.serviceCallToMyProfileExperience(Swift.Dictionary&lt;Swift.String, Any&gt;, () -&gt; ()) -&gt; ()"
+                  moduleName = "HearBK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pc/Desktop/vishal/Hash%20Project/HearBK/Progress/HearBK/HearBK/Custom%20Class/AppCommon/APIManager.swift"
+                  timestampString = "572418143.1225441"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "945"
+                  endingLineNumber = "945"
+                  offsetFromSymbolStart = "30">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HearBK/Custom Class/AppCommon/APIManager.swift"
+            timestampString = "572372596.8197089"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "947"
+            endingLineNumber = "947"
+            landmarkName = "serviceCallToMyProfileExperience(_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HearBK/Dashboard/FeedbackRequestVC.swift"
+            timestampString = "572275716.198367"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "clickToVideoPlayBtn(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HearBK/Custom Class/AppCommon/APIManager.swift"
+            timestampString = "572372596.819802"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2269"
+            endingLineNumber = "2269"
+            landmarkName = "serviceCallToPlaceOrder(_:_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HearBK/Custom Class/AppCommon/APIManager.swift"
+            timestampString = "572372596.819856"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2291"
+            endingLineNumber = "2291"
+            landmarkName = "serviceCallToPlaceOrder(_:_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HearBK/Dashboard/EditProfileVC.swift"
+            timestampString = "572372596.819908"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "643"
+            endingLineNumber = "643"
+            landmarkName = "clickToDone(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HearBK/Custom Class/AppCommon/APIManager.swift"
+            timestampString = "572372596.8199461"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2467"
+            endingLineNumber = "2467"
+            landmarkName = "serviceCallToRateListener(_:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HearBK.APIManager.serviceCallToRateListener(Swift.Dictionary&lt;Swift.String, Any&gt;, () -&gt; ()) -&gt; ()"
+                  moduleName = "HearBK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pc/Desktop/vishal/Hash%20Project/HearBK/Progress/HearBK/HearBK/Custom%20Class/AppCommon/APIManager.swift"
+                  timestampString = "572418143.144971"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2467"
+                  endingLineNumber = "2467"
+                  offsetFromSymbolStart = "343">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.MultipartFormData) -&gt; () in HearBK.APIManager.serviceCallToRateListener(Swift.Dictionary&lt;Swift.String, Any&gt;, () -&gt; ()) -&gt; ()"
+                  moduleName = "HearBK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pc/Desktop/vishal/Hash%20Project/HearBK/Progress/HearBK/HearBK/Custom%20Class/AppCommon/APIManager.swift"
+                  timestampString = "572418143.146463"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2468"
+                  endingLineNumber = "2468"
+                  offsetFromSymbolStart = "22">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HearBK/Custom Class/AppCommon/APIManager.swift"
+            timestampString = "572372596.819996"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2481"
+            endingLineNumber = "2481"
+            landmarkName = "serviceCallToRateListener(_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HearBK/Custom Class/AppCommon/APIManager.swift"
+            timestampString = "572372596.820048"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1899"
+            endingLineNumber = "1899"
+            landmarkName = "serviceCallToGetMyFavorite(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

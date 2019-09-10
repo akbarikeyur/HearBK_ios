@@ -1,0 +1,89 @@
+
+//Camera
+
+"take_photo" = "Capture Photo";
+"existing_photo" = "Choose Existing Photo";
+"take_video" = "Capture Video";
+"existing_video" = "Choose Existing Video";
+"no_camera" = "Your device has no camera";
+"cancel_picker" = "Cancel";
+
+
+"please_login" = "Please login for further use of app";
+
+"enter_old_password" = "Please enter old password.";
+"enter_new_password" = "Please enter new password.";
+
+"old_password_and_new_password_must_not_be_same" = "Sorry new password must not be same as current one.";
+"repeat_new_password_error" = "Sorry the password you input doesn't match.";
+
+"enter_name" = "Please enter name.";
+"enter_last_name" = "Please enter last name.";
+"enter_email" = "Please enter email address.";
+"invalid_email" = "Invalid email address.";
+"enter_phone_number" = "Please enter phone number.";
+"select_month" = "Please select month";
+"enter_date" = "Please enter date";
+"enter_year" = "please enter year";
+"enter_password" = "Please enter password.";
+"invalid_password" = "Your password must contain a number, an upper and lower case character and a special character. Please try again.";
+"password_min_char" = "Please must be %@ charecters long.";
+"confirm_password" = "Please re-enter password.";
+"confirm_password_match" = "Password and confirm password must be same.";
+"select_gender" = "Please select your gender";
+"repeat_new_password" = "Please repeat new password";
+"repeat_pwd_not_match" = "Repeat password doesn't match";
+"register_success" = "Registeration successfully. Welcome to Greeky.";
+"year_min_char" = "year must contain four character";
+"show_email" = "check your inbox";
+"select_dob" = "select date";
+"enter_birthday" = "Please enter Birthday";
+"organization_name" = "Please organization name";
+"enter_access_code" = "Please enter accesscode";
+"enter_school" = "Please enter schoolname";
+"check_terms" = "Read Terms and Condition";
+"password_char" = "password wrong format";
+"enter_state" = "Please enter state";
+"enter_city" = "Please enter city";
+"enter_valid_month" = "enter valid month";
+"enter_country" = "Please enter country";
+"enter_state" = "Please enter state";
+"select_image" = "Please select profile picture";
+"select_capcha" = "select capcha";
+"enter_valid_website" = "Please enter valid URL";
+"valid_date" = "Please enter valid date";
+"select_country" = "Please select country";
+"enter_your_bio" = "Please enter your bio.";
+"enter_song" = "Please enter your song.";
+"enter_artist" = "Please enter your Artist.";
+
+"enter_date" = "Please select date of birth";
+"enter_headlines" = "Please enter headlines";
+"enter_bio" = "Please enter your bio.";
+"enter_price" = "Please enter price";
+"enter_genres" = "Please enter favorite genres";
+"enter_tag" = "Please select tag";
+"enter_afference" = "Please select affilliations";
+"enter_artist" = "Please enter artist";
+//Question
+"select_dj_question" = "Please select atleast one dj question";
+"select_gig_image" = "Please select gig image";
+"select_company_website" = "Please write company URL";
+"select_year" = "Please select number of year";
+"select_DAW" = "Please select primary DAW";
+"list_production_credit" = "Please list production credit";
+"become_artist" = "Please write answer of why did you become an artist?";
+"motivate_you" = "Please write answer of what motivate you?";
+"work_for" = "Please write answer of who do you work for?";
+"company_title" = "Please write answer of what's your title?";
+"select_category" = "Please select category";
+"favorite_artist" = "Please Select favorite artist";
+"enter_experience" = "Please enter experience";
+//Service
+
+"register_error" = "Error in registeration";
+
+
+
+//Advance Search
+"select_listner" = "Please select at least one listner.";

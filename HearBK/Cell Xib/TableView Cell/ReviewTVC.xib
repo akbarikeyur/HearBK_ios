@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-UI-Display-Regular.otf">
+            <string>SFUIDisplay-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ReviewTVC" id="KGk-i7-Jjw" customClass="ReviewTVC" customModule="HearBK" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="204"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="203.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qT8-Mw-teB" customClass="View" customModule="HearBK" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="5" width="320" height="193.5"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ISA-Tt-Syy" customClass="Button" customModule="HearBK" customModuleProvider="target">
+                                <rect key="frame" x="8" y="8" width="50" height="50"/>
+                                <color key="backgroundColor" red="0.2784313725" green="0.73333333329999995" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="KMm-ln-Gen"/>
+                                    <constraint firstAttribute="height" constant="50" id="yOd-th-OyO"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderColorTypeAdapter">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Display Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nvq-UK-CUz" customClass="Label" customModule="HearBK" customModuleProvider="target">
+                                <rect key="frame" x="68" y="8" width="169" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="FMv-ic-2Yd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="textColorTypeAdapter">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeAdapter" value="sb"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                        <real key="value" value="13"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dLorem ipsum dolor sit amet, consectetur adipisicing elit, sed d" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XvD-sY-UEO" customClass="Label" customModule="HearBK" customModuleProvider="target">
+                                <rect key="frame" x="68" y="31" width="244" height="49.5"/>
+                                <fontDescription key="fontDescription" name="SFUIDisplay-Regular" family="SF UI Display" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="textColorTypeAdapter">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeAdapter" value="sr"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                        <real key="value" value="13"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mq8-lj-Xu5" customClass="FloatRatingView" customModule="HearBK" customModuleProvider="target">
+                                <rect key="frame" x="247" y="10" width="65" height="17"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="17" id="Nhm-nt-Gnu"/>
+                                    <constraint firstAttribute="width" constant="65" id="PdH-Hx-cdG"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="emptyImage" value="star_off"/>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="fullImage" value="star_on"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="minRating">
+                                        <integer key="value" value="0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="maxRating">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="rating">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="minImageSize">
+                                        <size key="value" width="5" height="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d6J-cm-hFb">
+                                <rect key="frame" x="8" y="88.5" width="304" height="100"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Listener response time" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="po5-qR-e0i" customClass="Label" customModule="HearBK" customModuleProvider="target">
+                                        <rect key="frame" x="57" y="12" width="127" height="16"/>
+                                        <fontDescription key="fontDescription" name="SFUIDisplay-Regular" family="SF UI Display" pointSize="13"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="textColorTypeAdapter">
+                                                <integer key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="fontTypeAdapter" value="sr"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                <real key="value" value="13"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Service as expected" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qlS-dg-50y" customClass="Label" customModule="HearBK" customModuleProvider="target">
+                                        <rect key="frame" x="57" y="40" width="113" height="16"/>
+                                        <fontDescription key="fontDescription" name="SFUIDisplay-Regular" family="SF UI Display" pointSize="13"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="textColorTypeAdapter">
+                                                <integer key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="fontTypeAdapter" value="sr"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                <real key="value" value="13"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Buy again or recommend" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eOS-Zh-c08" customClass="Label" customModule="HearBK" customModuleProvider="target">
+                                        <rect key="frame" x="57" y="68" width="140.5" height="16"/>
+                                        <fontDescription key="fontDescription" name="SFUIDisplay-Regular" family="SF UI Display" pointSize="13"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="textColorTypeAdapter">
+                                                <integer key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="fontTypeAdapter" value="sr"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                <real key="value" value="13"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E5u-zs-Ijh" customClass="FloatRatingView" customModule="HearBK" customModuleProvider="target">
+                                        <rect key="frame" x="219" y="12.5" width="70" height="17"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="17" id="Bgf-8G-IF2"/>
+                                            <constraint firstAttribute="width" constant="70" id="bWa-lw-gZz"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="image" keyPath="emptyImage" value="star_off"/>
+                                            <userDefinedRuntimeAttribute type="image" keyPath="fullImage" value="star_on"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="minRating">
+                                                <integer key="value" value="0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="maxRating">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="rating">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="size" keyPath="minImageSize">
+                                                <size key="value" width="5" height="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gnt-uc-xSt" customClass="FloatRatingView" customModule="HearBK" customModuleProvider="target">
+                                        <rect key="frame" x="219" y="40.5" width="70" height="17"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="70" id="Qs3-Qn-plp"/>
+                                            <constraint firstAttribute="height" constant="17" id="id9-KB-Rpb"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="image" keyPath="emptyImage" value="star_off"/>
+                                            <userDefinedRuntimeAttribute type="image" keyPath="fullImage" value="star_on"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="minRating">
+                                                <integer key="value" value="0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="maxRating">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="rating">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HIB-jp-oOY" customClass="FloatRatingView" customModule="HearBK" customModuleProvider="target">
+                                        <rect key="frame" x="219" y="68.5" width="70" height="17"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="17" id="CbG-VK-1r6"/>
+                                            <constraint firstAttribute="width" constant="70" id="auF-Uv-lUS"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="image" keyPath="emptyImage" value="star_off"/>
+                                            <userDefinedRuntimeAttribute type="image" keyPath="fullImage" value="star_on"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="minRating">
+                                                <integer key="value" value="0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="maxRating">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="rating">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="HIB-jp-oOY" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="eOS-Zh-c08" secondAttribute="trailing" constant="10" id="260-3s-kzw"/>
+                                    <constraint firstItem="E5u-zs-Ijh" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="po5-qR-e0i" secondAttribute="trailing" constant="10" id="2Ky-gd-9kT"/>
+                                    <constraint firstItem="qlS-dg-50y" firstAttribute="leading" secondItem="d6J-cm-hFb" secondAttribute="leading" constant="57" id="9Lq-t4-dDT"/>
+                                    <constraint firstItem="po5-qR-e0i" firstAttribute="leading" secondItem="d6J-cm-hFb" secondAttribute="leading" constant="57" id="9iS-ol-9FJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="gnt-uc-xSt" secondAttribute="trailing" constant="15" id="A4i-pa-e7h"/>
+                                    <constraint firstItem="gnt-uc-xSt" firstAttribute="centerY" secondItem="qlS-dg-50y" secondAttribute="centerY" constant="1" id="N6W-j9-El6"/>
+                                    <constraint firstAttribute="trailing" secondItem="HIB-jp-oOY" secondAttribute="trailing" constant="15" id="OA9-fR-USq"/>
+                                    <constraint firstItem="po5-qR-e0i" firstAttribute="top" secondItem="d6J-cm-hFb" secondAttribute="top" constant="12" id="UTA-ro-nR2"/>
+                                    <constraint firstItem="gnt-uc-xSt" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="qlS-dg-50y" secondAttribute="trailing" constant="10" id="g4P-Cw-q0b"/>
+                                    <constraint firstItem="eOS-Zh-c08" firstAttribute="leading" secondItem="d6J-cm-hFb" secondAttribute="leading" constant="57" id="gJf-7f-jBP"/>
+                                    <constraint firstAttribute="bottom" secondItem="eOS-Zh-c08" secondAttribute="bottom" constant="16" id="hU5-Mn-iww"/>
+                                    <constraint firstItem="E5u-zs-Ijh" firstAttribute="centerY" secondItem="po5-qR-e0i" secondAttribute="centerY" constant="1" id="jQB-3L-g2A"/>
+                                    <constraint firstAttribute="height" constant="100" id="jzm-43-Jtn"/>
+                                    <constraint firstItem="HIB-jp-oOY" firstAttribute="centerY" secondItem="eOS-Zh-c08" secondAttribute="centerY" constant="1" id="mgl-uB-RlT"/>
+                                    <constraint firstItem="qlS-dg-50y" firstAttribute="top" secondItem="po5-qR-e0i" secondAttribute="bottom" constant="12" id="qyZ-5P-8C5"/>
+                                    <constraint firstItem="eOS-Zh-c08" firstAttribute="top" secondItem="qlS-dg-50y" secondAttribute="bottom" constant="12" id="v42-GJ-OMS"/>
+                                    <constraint firstAttribute="trailing" secondItem="E5u-zs-Ijh" secondAttribute="trailing" constant="15" id="wra-No-tVV"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1019607843" green="0.1450980392" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="ISA-Tt-Syy" firstAttribute="leading" secondItem="qT8-Mw-teB" secondAttribute="leading" constant="8" id="2d0-QE-9eb"/>
+                            <constraint firstAttribute="trailing" secondItem="mq8-lj-Xu5" secondAttribute="trailing" constant="8" id="AOj-qz-Oa1"/>
+                            <constraint firstItem="XvD-sY-UEO" firstAttribute="top" secondItem="nvq-UK-CUz" secondAttribute="bottom" constant="8" id="BuA-1Q-dMU"/>
+                            <constraint firstAttribute="bottom" secondItem="d6J-cm-hFb" secondAttribute="bottom" constant="5" id="Fbv-43-s6l"/>
+                            <constraint firstItem="d6J-cm-hFb" firstAttribute="leading" secondItem="qT8-Mw-teB" secondAttribute="leading" constant="8" id="HAz-WO-s29"/>
+                            <constraint firstItem="ISA-Tt-Syy" firstAttribute="top" secondItem="qT8-Mw-teB" secondAttribute="top" constant="8" id="MF3-Ed-OXt"/>
+                            <constraint firstAttribute="trailing" secondItem="XvD-sY-UEO" secondAttribute="trailing" constant="8" id="Nqq-VI-nkU"/>
+                            <constraint firstItem="mq8-lj-Xu5" firstAttribute="leading" secondItem="nvq-UK-CUz" secondAttribute="trailing" constant="10" id="RxH-ul-TYT"/>
+                            <constraint firstAttribute="trailing" secondItem="d6J-cm-hFb" secondAttribute="trailing" constant="8" id="T4V-25-cXM"/>
+                            <constraint firstItem="d6J-cm-hFb" firstAttribute="top" secondItem="XvD-sY-UEO" secondAttribute="bottom" constant="8" id="UGp-LI-aTr"/>
+                            <constraint firstItem="XvD-sY-UEO" firstAttribute="leading" secondItem="ISA-Tt-Syy" secondAttribute="trailing" constant="10" id="YOT-61-KEu"/>
+                            <constraint firstItem="nvq-UK-CUz" firstAttribute="leading" secondItem="ISA-Tt-Syy" secondAttribute="trailing" constant="10" id="Zf1-O5-6qD"/>
+                            <constraint firstItem="mq8-lj-Xu5" firstAttribute="centerY" secondItem="nvq-UK-CUz" secondAttribute="centerY" constant="3" id="hmZ-cY-2CQ"/>
+                            <constraint firstItem="nvq-UK-CUz" firstAttribute="top" secondItem="qT8-Mw-teB" secondAttribute="top" constant="8" id="k9e-hM-fIn"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="backgroundColorTypeAdapter">
+                                <integer key="value" value="15"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="qT8-Mw-teB" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="8I4-OH-Bge"/>
+                    <constraint firstAttribute="bottom" secondItem="qT8-Mw-teB" secondAttribute="bottom" constant="5" id="BY0-gV-Gg3"/>
+                    <constraint firstAttribute="trailing" secondItem="qT8-Mw-teB" secondAttribute="trailing" id="F1f-nv-5MC"/>
+                    <constraint firstItem="qT8-Mw-teB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="QKb-eQ-8tx"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="buyAgainRateView" destination="HIB-jp-oOY" id="AMJ-yr-f6z"/>
+                <outlet property="descriptionLbl" destination="XvD-sY-UEO" id="kde-by-AAB"/>
+                <outlet property="listnerRateView" destination="E5u-zs-Ijh" id="nFs-Ab-h5X"/>
+                <outlet property="nameLbl" destination="nvq-UK-CUz" id="SJ9-5i-8Qa"/>
+                <outlet property="profilePicBtn" destination="ISA-Tt-Syy" id="NvN-8c-UUA"/>
+                <outlet property="rateBackView" destination="d6J-cm-hFb" id="sMP-YL-tVr"/>
+                <outlet property="rateView" destination="mq8-lj-Xu5" id="qts-Ou-cfC"/>
+                <outlet property="ratingBackViewHeightConstraint" destination="jzm-43-Jtn" id="3Ue-9y-S3A"/>
+                <outlet property="serviceRateView" destination="gnt-uc-xSt" id="Ssi-M4-ehO"/>
+            </connections>
+            <point key="canvasLocation" x="17" y="125"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="star_off" width="10" height="10"/>
+        <image name="star_on" width="10" height="10"/>
+    </resources>
+</document>

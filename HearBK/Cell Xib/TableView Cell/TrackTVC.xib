@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="sf-ui-display-bold-58646a511e3d9.otf">
+            <string>SFUIDisplay-Bold</string>
+        </array>
+        <array key="sf-ui-display-medium-58646be638f96.otf">
+            <string>SFUIDisplay-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="TrackTVC" rowHeight="74" id="KGk-i7-Jjw" customClass="TrackTVC" customModule="HearBK" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="74"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="73.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ChD-ZT-XqL" customClass="View" customModule="HearBK" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="5" width="320" height="63.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="01. Opanso" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JAG-Lb-KMy" customClass="Label" customModule="HearBK" customModuleProvider="target">
+                                <rect key="frame" x="8" y="8" width="273" height="19"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="textColorTypeAdapter">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeAdapter" value="sb"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                        <real key="value" value="16"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sqN-bC-rcr" customClass="Button" customModule="HearBK" customModuleProvider="target">
+                                <rect key="frame" x="288" y="8" width="24" height="21"/>
+                                <color key="backgroundColor" red="0.92941176470588238" green="0.7803921568627451" blue="0.25490196078431371" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="24" id="GX9-S4-nqo"/>
+                                    <constraint firstAttribute="height" constant="21" id="LF3-wj-mpy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SFUIDisplay-Medium" family="SF UI Display" pointSize="10"/>
+                                <state key="normal" title="9.0">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="textColorTypeAdapter">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeAdapter" value="sm"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="02-02-2018" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pB7-5t-odD" customClass="Label" customModule="HearBK" customModuleProvider="target">
+                                <rect key="frame" x="8" y="35" width="86.5" height="18"/>
+                                <fontDescription key="fontDescription" name="SFUIDisplay-Bold" family="SF UI Display" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="textColorTypeAdapter">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeAdapter" value="sb"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1019607843" green="0.1450980392" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="pB7-5t-odD" secondAttribute="bottom" constant="10.5" id="867-Ij-6cl"/>
+                            <constraint firstAttribute="height" constant="63.5" id="BVi-eE-27R"/>
+                            <constraint firstItem="pB7-5t-odD" firstAttribute="top" secondItem="JAG-Lb-KMy" secondAttribute="bottom" constant="8" id="F3M-Gk-SrR"/>
+                            <constraint firstAttribute="trailing" secondItem="JAG-Lb-KMy" secondAttribute="trailing" constant="39" id="LGW-vM-67n"/>
+                            <constraint firstItem="JAG-Lb-KMy" firstAttribute="leading" secondItem="ChD-ZT-XqL" secondAttribute="leading" constant="8" id="Tiq-no-lQC"/>
+                            <constraint firstAttribute="trailing" secondItem="sqN-bC-rcr" secondAttribute="trailing" constant="8" id="VLv-Bt-RN7"/>
+                            <constraint firstItem="JAG-Lb-KMy" firstAttribute="top" secondItem="ChD-ZT-XqL" secondAttribute="top" constant="8" id="Vol-NP-jXk"/>
+                            <constraint firstItem="pB7-5t-odD" firstAttribute="leading" secondItem="ChD-ZT-XqL" secondAttribute="leading" constant="8" id="cf8-bg-KUa"/>
+                            <constraint firstItem="sqN-bC-rcr" firstAttribute="top" secondItem="ChD-ZT-XqL" secondAttribute="top" constant="8" id="gcB-Ec-8TE"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="backgroundColorTypeAdapter">
+                                <integer key="value" value="15"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Zbs-kD-Ez4">
+                        <rect key="frame" x="0.0" y="72.5" width="320" height="1"/>
+                        <color key="backgroundColor" white="1" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="ecB-zh-zUZ"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Zbs-kD-Ez4" secondAttribute="trailing" id="GkZ-Wd-xkd"/>
+                    <constraint firstAttribute="bottom" secondItem="Zbs-kD-Ez4" secondAttribute="bottom" id="JuW-nO-djo"/>
+                    <constraint firstItem="ChD-ZT-XqL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="dsH-kt-bbv"/>
+                    <constraint firstAttribute="bottom" secondItem="ChD-ZT-XqL" secondAttribute="bottom" constant="5" id="lv2-1y-HSS"/>
+                    <constraint firstAttribute="trailing" secondItem="ChD-ZT-XqL" secondAttribute="trailing" id="pn5-xI-jHt"/>
+                    <constraint firstItem="ChD-ZT-XqL" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="wWn-oU-g7z"/>
+                    <constraint firstItem="Zbs-kD-Ez4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="xaA-KH-I5f"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="dateLbl" destination="pB7-5t-odD" id="Hx2-Od-mHR"/>
+                <outlet property="nameLbl" destination="JAG-Lb-KMy" id="n9z-vP-ezI"/>
+                <outlet property="rateBtn" destination="sqN-bC-rcr" id="eRG-G7-NzN"/>
+            </connections>
+            <point key="canvasLocation" x="25" y="67"/>
+        </tableViewCell>
+    </objects>
+</document>

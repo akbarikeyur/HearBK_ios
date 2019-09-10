@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="sf-ui-display-medium-58646be638f96.otf">
+            <string>SFUIDisplay-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="CustomListenerCVC" id="gTV-IL-0wX" customClass="CustomListenerCVC" customModule="HearBK" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="145" height="200"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="145" height="200"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Xg-Wc-g1C">
+                        <rect key="frame" x="5" y="5" width="135" height="190"/>
+                        <subviews>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bzL-ai-gAD" customClass="Button" customModule="HearBK" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="135" height="132"/>
+                                <state key="normal" backgroundImage="user"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Daniel Murphy" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="gQP-Os-Bew" customClass="Label" customModule="HearBK" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="140" width="130" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="17" id="upc-Uu-PDG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SFUIDisplay-Medium" family="SF UI Display" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="0.70439040490000004" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="textColorTypeAdapter">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeAdapter" value="sm"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                        <real key="value" value="14"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aY6-Lk-gKa" customClass="FloatRatingView" customModule="HearBK" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="162" width="65" height="20"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="65" id="Cho-3C-i9r"/>
+                                    <constraint firstAttribute="height" constant="20" id="aD4-Me-Sqd"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="emptyImage" value="star_off"/>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="fullImage" value="star_on"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="minRating">
+                                        <integer key="value" value="0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="maxRating">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="rating">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4.6" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5YW-X4-vWr" customClass="Label" customModule="HearBK" customModuleProvider="target">
+                                <rect key="frame" x="70" y="162" width="60" height="14"/>
+                                <fontDescription key="fontDescription" name="SFUIDisplay-Medium" family="SF UI Display" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="0.70439040490000004" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="textColorTypeAdapter">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeAdapter" value="sm"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                        <real key="value" value="14"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="gQP-Os-Bew" secondAttribute="trailing" constant="5" id="66M-s5-Yw6"/>
+                            <constraint firstItem="aY6-Lk-gKa" firstAttribute="leading" secondItem="8Xg-Wc-g1C" secondAttribute="leading" id="7To-i9-rYX"/>
+                            <constraint firstAttribute="bottom" secondItem="aY6-Lk-gKa" secondAttribute="bottom" constant="8" id="G4E-ZE-Y4r"/>
+                            <constraint firstItem="bzL-ai-gAD" firstAttribute="top" secondItem="8Xg-Wc-g1C" secondAttribute="top" id="ORn-ta-ryh"/>
+                            <constraint firstItem="aY6-Lk-gKa" firstAttribute="top" secondItem="gQP-Os-Bew" secondAttribute="bottom" constant="5" id="Qxc-Wi-Kff"/>
+                            <constraint firstItem="5YW-X4-vWr" firstAttribute="bottom" secondItem="aY6-Lk-gKa" secondAttribute="bottom" constant="-6" id="Shf-J6-LYW"/>
+                            <constraint firstAttribute="trailing" secondItem="5YW-X4-vWr" secondAttribute="trailing" constant="5" id="W3y-Pk-BZE"/>
+                            <constraint firstItem="gQP-Os-Bew" firstAttribute="top" secondItem="bzL-ai-gAD" secondAttribute="bottom" constant="8" id="XbO-Ex-L28"/>
+                            <constraint firstItem="5YW-X4-vWr" firstAttribute="top" secondItem="aY6-Lk-gKa" secondAttribute="top" id="Xzh-zE-0Jc"/>
+                            <constraint firstItem="gQP-Os-Bew" firstAttribute="leading" secondItem="8Xg-Wc-g1C" secondAttribute="leading" id="bdD-Xp-1t7"/>
+                            <constraint firstItem="bzL-ai-gAD" firstAttribute="leading" secondItem="8Xg-Wc-g1C" secondAttribute="leading" id="mIY-Og-UBW"/>
+                            <constraint firstAttribute="trailing" secondItem="bzL-ai-gAD" secondAttribute="trailing" id="yfH-cM-jNl"/>
+                            <constraint firstItem="5YW-X4-vWr" firstAttribute="leading" secondItem="aY6-Lk-gKa" secondAttribute="trailing" constant="5" id="ygM-3S-vdk"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="8Xg-Wc-g1C" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="AwR-UH-nC5"/>
+                <constraint firstAttribute="trailing" secondItem="8Xg-Wc-g1C" secondAttribute="trailing" constant="5" id="DcX-aa-R4y"/>
+                <constraint firstAttribute="bottom" secondItem="8Xg-Wc-g1C" secondAttribute="bottom" constant="5" id="T8k-yD-kIM"/>
+                <constraint firstItem="8Xg-Wc-g1C" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="jxK-vh-nNJ"/>
+            </constraints>
+            <connections>
+                <outlet property="nameLbl" destination="gQP-Os-Bew" id="yOh-aG-nzn"/>
+                <outlet property="profilePicBtn" destination="bzL-ai-gAD" id="M5V-Zn-FxT"/>
+                <outlet property="rateLbl" destination="5YW-X4-vWr" id="Sk4-EJ-GPI"/>
+                <outlet property="starView" destination="aY6-Lk-gKa" id="x5G-36-ehK"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="star_off" width="10" height="10"/>
+        <image name="star_on" width="20" height="20"/>
+        <image name="user" width="133" height="133"/>
+    </resources>
+</document>

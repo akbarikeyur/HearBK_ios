@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="sf-ui-display-bold-58646a511e3d9.otf">
+            <string>SFUIDisplay-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CustomRegisterView" customModule="HearBK" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I4b-Kf-M2V">
+                    <rect key="frame" x="27" y="258.5" width="320" height="150"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please login or create an account for further use of app!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JBU-sQ-CZ3" customClass="Label" customModule="HearBK" customModuleProvider="target">
+                            <rect key="frame" x="40" y="15" width="240" height="52.5"/>
+                            <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="textColorTypeAdapter">
+                                    <integer key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="string" keyPath="fontTypeAdapter" value="sm"/>
+                                <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                    <real key="value" value="15"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sta-6S-sTv" customClass="Button" customModule="HearBK" customModuleProvider="target">
+                            <rect key="frame" x="16" y="82.5" width="136" height="45"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="45" id="70D-v2-OwN"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="SFUIDisplay-Bold" family="SF UI Display" pointSize="16"/>
+                            <state key="normal" title="Create account">
+                                <color key="titleColor" red="0.1019607843" green="0.1450980392" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="backgroundColorTypeAdapter">
+                                    <integer key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="3"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="textColorTypeAdapter">
+                                    <integer key="value" value="15"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="string" keyPath="fontTypeAdapter" value="sb"/>
+                                <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                    <real key="value" value="16"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="clickToCreateAccount:" destination="iN0-l3-epB" eventType="touchUpInside" id="Y4A-Gx-mLz"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FT9-c9-o3l" customClass="Button" customModule="HearBK" customModuleProvider="target">
+                            <rect key="frame" x="168" y="82.5" width="136" height="45"/>
+                            <color key="backgroundColor" red="0.2784313725" green="0.73333333329999995" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" name="SFUIDisplay-Bold" family="SF UI Display" pointSize="16"/>
+                            <state key="normal" title="Log in">
+                                <color key="titleColor" red="0.1019607843" green="0.1450980392" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="backgroundColorTypeAdapter">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="3"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="textColorTypeAdapter">
+                                    <integer key="value" value="15"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="string" keyPath="fontTypeAdapter" value="sb"/>
+                                <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                    <real key="value" value="16"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="clickToLogin:" destination="iN0-l3-epB" eventType="touchUpInside" id="8oU-VC-TJV"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nXK-mw-rzj">
+                            <rect key="frame" x="280" y="0.0" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="6Fo-nE-mHJ"/>
+                                <constraint firstAttribute="height" constant="40" id="hn6-Ad-zic"/>
+                            </constraints>
+                            <state key="normal" image="ic_close"/>
+                            <connections>
+                                <action selector="clickToClose:" destination="iN0-l3-epB" eventType="touchUpInside" id="jX9-vD-Yqk"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.086274509799999996" green="0.1333333333" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="JBU-sQ-CZ3" secondAttribute="trailing" constant="40" id="4yI-fq-dEV"/>
+                        <constraint firstItem="Sta-6S-sTv" firstAttribute="top" secondItem="JBU-sQ-CZ3" secondAttribute="bottom" constant="15" id="8Tu-hL-QBa"/>
+                        <constraint firstItem="FT9-c9-o3l" firstAttribute="leading" secondItem="Sta-6S-sTv" secondAttribute="trailing" constant="16" id="8nX-Xi-kkr"/>
+                        <constraint firstItem="nXK-mw-rzj" firstAttribute="top" secondItem="I4b-Kf-M2V" secondAttribute="top" id="CXy-8S-Bln"/>
+                        <constraint firstItem="JBU-sQ-CZ3" firstAttribute="top" secondItem="I4b-Kf-M2V" secondAttribute="top" constant="15" id="DtA-ed-5jH"/>
+                        <constraint firstAttribute="trailing" secondItem="FT9-c9-o3l" secondAttribute="trailing" constant="16" id="Odg-8v-RIO"/>
+                        <constraint firstItem="FT9-c9-o3l" firstAttribute="width" secondItem="Sta-6S-sTv" secondAttribute="width" id="Qwm-0f-zaW"/>
+                        <constraint firstAttribute="trailing" secondItem="nXK-mw-rzj" secondAttribute="trailing" id="TLm-AC-E6L"/>
+                        <constraint firstItem="JBU-sQ-CZ3" firstAttribute="leading" secondItem="I4b-Kf-M2V" secondAttribute="leading" constant="40" id="f2P-tK-y4G"/>
+                        <constraint firstAttribute="bottom" secondItem="Sta-6S-sTv" secondAttribute="bottom" constant="22.5" id="hww-HA-Cgk"/>
+                        <constraint firstAttribute="height" constant="150" id="jcN-L5-h4F"/>
+                        <constraint firstItem="FT9-c9-o3l" firstAttribute="top" secondItem="Sta-6S-sTv" secondAttribute="top" id="uNk-AJ-4af"/>
+                        <constraint firstItem="Sta-6S-sTv" firstAttribute="leading" secondItem="I4b-Kf-M2V" secondAttribute="leading" constant="16" id="we7-2w-p9o"/>
+                        <constraint firstItem="FT9-c9-o3l" firstAttribute="height" secondItem="Sta-6S-sTv" secondAttribute="height" id="x5W-rl-kfj"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.1019607843" green="0.1450980392" blue="0.20392156859999999" alpha="0.94330435739999996" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="I4b-Kf-M2V" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="XZN-q5-cYV"/>
+                <constraint firstItem="I4b-Kf-M2V" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="27" id="efq-41-FKI"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="I4b-Kf-M2V" secondAttribute="trailing" constant="28" id="g8b-h9-mTD"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="topLbl" destination="JBU-sQ-CZ3" id="gdp-Yt-nrd"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_close" width="20" height="20"/>
+    </resources>
+</document>

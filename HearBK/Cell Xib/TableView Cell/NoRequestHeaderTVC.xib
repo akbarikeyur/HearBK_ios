@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="sf-ui-display-bold-58646a511e3d9.otf">
+            <string>SFUIDisplay-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="NoRequestHeaderTVC" rowHeight="243" id="KGk-i7-Jjw" customClass="NoRequestHeaderTVC" customModule="HearBK" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="243"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="242.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GqT-8S-AZW" customClass="View" customModule="HearBK" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="242.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ag-Ts-3Ll" customClass="Label" customModule="HearBK" customModuleProvider="target">
+                                <rect key="frame" x="38" y="22" width="244" height="67"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="67" id="saJ-fy-pGn"/>
+                                </constraints>
+                                <string key="text">You don't have any
+new requests</string>
+                                <fontDescription key="fontDescription" name="SFUIDisplay-Bold" family="SF UI Display" pointSize="28"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="textColorTypeAdapter">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeAdapter" value="sb"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                        <real key="value" value="28"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iio-fQ-Ima" customClass="Button" customModule="HearBK" customModuleProvider="target">
+                                <rect key="frame" x="16" y="128" width="288" height="45"/>
+                                <color key="backgroundColor" red="0.2784313725" green="0.73333333329999995" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="yl0-bo-ZMR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SFUIDisplay-Bold" family="SF UI Display" pointSize="16"/>
+                                <state key="normal" title="Promote your profile">
+                                    <color key="titleColor" red="0.1019607843" green="0.1450980392" blue="0.20392156859999999" alpha="0.94330435739999996" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="backgroundColorTypeAdapter">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="textColorTypeAdapter">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeAdapter" value="sb"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                        <real key="value" value="16"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2hj-MD-MBh" customClass="Button" customModule="HearBK" customModuleProvider="target">
+                                <rect key="frame" x="16" y="186" width="288" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="7tB-b4-sVk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SFUIDisplay-Bold" family="SF UI Display" pointSize="16"/>
+                                <state key="normal" title="Become a listener">
+                                    <color key="titleColor" red="0.1019607843" green="0.1450980392" blue="0.20392156859999999" alpha="0.94330435739999996" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="backgroundColorTypeAdapter">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="textColorTypeAdapter">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeAdapter" value="sb"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                        <real key="value" value="16"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1019607843" green="0.1450980392" blue="0.20392156859999999" alpha="0.94330435739999996" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="2hj-MD-MBh" secondAttribute="bottom" constant="16.5" id="4Nm-f8-0zM"/>
+                            <constraint firstItem="2hj-MD-MBh" firstAttribute="leading" secondItem="GqT-8S-AZW" secondAttribute="leading" constant="16" id="DPV-vU-PKw"/>
+                            <constraint firstItem="Iio-fQ-Ima" firstAttribute="top" secondItem="2ag-Ts-3Ll" secondAttribute="bottom" constant="39" id="ViL-Zs-XWq"/>
+                            <constraint firstItem="2hj-MD-MBh" firstAttribute="top" secondItem="Iio-fQ-Ima" secondAttribute="bottom" constant="13" id="nWH-za-g2B"/>
+                            <constraint firstItem="2ag-Ts-3Ll" firstAttribute="top" secondItem="GqT-8S-AZW" secondAttribute="top" constant="22" id="nxe-Vy-kdV"/>
+                            <constraint firstItem="Iio-fQ-Ima" firstAttribute="leading" secondItem="GqT-8S-AZW" secondAttribute="leading" constant="16" id="rbE-Gp-PAO"/>
+                            <constraint firstAttribute="trailing" secondItem="Iio-fQ-Ima" secondAttribute="trailing" constant="16" id="tLl-bi-ALR"/>
+                            <constraint firstAttribute="trailing" secondItem="2hj-MD-MBh" secondAttribute="trailing" constant="16" id="uQw-zP-m1t"/>
+                            <constraint firstItem="2ag-Ts-3Ll" firstAttribute="centerX" secondItem="GqT-8S-AZW" secondAttribute="centerX" id="w7I-cJ-u9v"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="backgroundColorTypeAdapter">
+                                <integer key="value" value="15"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="GqT-8S-AZW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="0Vf-JA-oYN"/>
+                    <constraint firstAttribute="bottom" secondItem="GqT-8S-AZW" secondAttribute="bottom" id="WM9-Wn-4z8"/>
+                    <constraint firstItem="GqT-8S-AZW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="b9j-H0-x8y"/>
+                    <constraint firstAttribute="trailing" secondItem="GqT-8S-AZW" secondAttribute="trailing" id="yQq-HH-ckn"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="becomeLisnerBtnHeightConstraint" destination="7tB-b4-sVk" id="5cJ-ln-gjA"/>
+                <outlet property="becomeListenerBtn" destination="2hj-MD-MBh" id="awc-j8-kIv"/>
+                <outlet property="promoteYourprofileBtn" destination="Iio-fQ-Ima" id="6O5-6E-Ocp"/>
+            </connections>
+            <point key="canvasLocation" x="26" y="143.5"/>
+        </tableViewCell>
+    </objects>
+</document>

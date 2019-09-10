@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="sf-ui-display-medium-58646be638f96.otf">
+            <string>SFUIDisplay-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="CustomVideoContentCVC" id="gTV-IL-0wX" customClass="CustomVideoContentCVC" customModule="HearBK" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fNI-pF-4KR">
+                        <rect key="frame" x="5" y="5" width="190" height="190"/>
+                        <subviews>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Bs-gh-Vco" customClass="Button" customModule="HearBK" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="190" height="130"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="130" id="lxT-T9-h5g"/>
+                                </constraints>
+                                <state key="normal" image="img2"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Opasno" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qu8-lE-7YV" customClass="Label" customModule="HearBK" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="135" width="185" height="17"/>
+                                <fontDescription key="fontDescription" name="SFUIDisplay-Medium" family="SF UI Display" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="0.70439040490000004" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="textColorTypeAdapter">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeAdapter" value="sb"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                        <real key="value" value="14"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Buba corelli" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0oY-he-snZ" customClass="Label" customModule="HearBK" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="157" width="185" height="14.5"/>
+                                <fontDescription key="fontDescription" name="SFUIDisplay-Medium" family="SF UI Display" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="0.70439040490000004" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="textColorTypeAdapter">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeAdapter" value="sm"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                        <real key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="0oY-he-snZ" firstAttribute="top" secondItem="Qu8-lE-7YV" secondAttribute="bottom" constant="5" id="8Qi-OH-Kck"/>
+                            <constraint firstItem="Qu8-lE-7YV" firstAttribute="top" secondItem="0Bs-gh-Vco" secondAttribute="bottom" constant="5" id="CY8-9h-H8q"/>
+                            <constraint firstAttribute="trailing" secondItem="0Bs-gh-Vco" secondAttribute="trailing" id="HEr-Xp-9bU"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="0oY-he-snZ" secondAttribute="bottom" constant="5" id="J3p-Tz-Ohq"/>
+                            <constraint firstAttribute="trailing" secondItem="Qu8-lE-7YV" secondAttribute="trailing" constant="5" id="NmY-K3-9X6"/>
+                            <constraint firstItem="Qu8-lE-7YV" firstAttribute="leading" secondItem="fNI-pF-4KR" secondAttribute="leading" id="NsL-qL-gHd"/>
+                            <constraint firstAttribute="trailing" secondItem="0oY-he-snZ" secondAttribute="trailing" constant="5" id="S9g-mr-cgK"/>
+                            <constraint firstItem="0Bs-gh-Vco" firstAttribute="leading" secondItem="fNI-pF-4KR" secondAttribute="leading" id="Vln-AO-6BT"/>
+                            <constraint firstItem="0Bs-gh-Vco" firstAttribute="top" secondItem="fNI-pF-4KR" secondAttribute="top" id="frH-kJ-gxT"/>
+                            <constraint firstItem="0oY-he-snZ" firstAttribute="leading" secondItem="fNI-pF-4KR" secondAttribute="leading" id="ivl-49-6D8"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="fNI-pF-4KR" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="HHP-hJ-Khw"/>
+                <constraint firstItem="fNI-pF-4KR" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="LlS-LU-NUF"/>
+                <constraint firstAttribute="trailing" secondItem="fNI-pF-4KR" secondAttribute="trailing" constant="5" id="jYf-g9-KYT"/>
+                <constraint firstAttribute="bottom" secondItem="fNI-pF-4KR" secondAttribute="bottom" constant="5" id="lXF-lT-tSh"/>
+            </constraints>
+            <connections>
+                <outlet property="subTitleLbl" destination="0oY-he-snZ" id="h5p-8t-ekL"/>
+                <outlet property="titleLbl" destination="Qu8-lE-7YV" id="oob-Mm-x2C"/>
+                <outlet property="videoBtn" destination="0Bs-gh-Vco" id="Eqk-Zw-r5Y"/>
+            </connections>
+            <point key="canvasLocation" x="132" y="154"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="img2" width="500" height="348"/>
+    </resources>
+</document>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="LoggesAsTVC" id="KGk-i7-Jjw" customClass="LoggesAsTVC" customModule="HearBK" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="59.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q1U-lm-BfC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="59.5"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="41H-hk-EXQ" customClass="Button" customModule="HearBK" customModuleProvider="target">
+                                <rect key="frame" x="10" y="10" width="40" height="39.5"/>
+                                <color key="backgroundColor" red="0.2784313725" green="0.73333333329999995" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="eCo-Sa-oKE"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderColorTypeAdapter">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Display Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L2f-Wb-ff3" customClass="Label" customModule="HearBK" customModuleProvider="target">
+                                <rect key="frame" x="60" y="10" width="250" height="19.5"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="textColorTypeAdapter">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeAdapter" value="sb"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                        <real key="value" value="16"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Display Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4MG-ob-Tp2" customClass="Label" customModule="HearBK" customModuleProvider="target">
+                                <rect key="frame" x="60" y="32" width="250" height="19.5"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="textColorTypeAdapter">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeAdapter" value="sb"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                        <real key="value" value="16"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="41H-hk-EXQ" firstAttribute="top" secondItem="Q1U-lm-BfC" secondAttribute="top" constant="10" id="1LQ-Qa-qxL"/>
+                            <constraint firstItem="4MG-ob-Tp2" firstAttribute="leading" secondItem="41H-hk-EXQ" secondAttribute="trailing" constant="10" id="4K6-MI-cEE"/>
+                            <constraint firstAttribute="bottom" secondItem="41H-hk-EXQ" secondAttribute="bottom" constant="10" id="BXf-hA-GyP"/>
+                            <constraint firstItem="L2f-Wb-ff3" firstAttribute="top" secondItem="Q1U-lm-BfC" secondAttribute="top" constant="10" id="DNW-lq-qY7"/>
+                            <constraint firstAttribute="trailing" secondItem="L2f-Wb-ff3" secondAttribute="trailing" constant="10" id="Lz1-ZX-MXP"/>
+                            <constraint firstItem="4MG-ob-Tp2" firstAttribute="top" secondItem="L2f-Wb-ff3" secondAttribute="bottom" constant="3" id="U8X-F3-VVe"/>
+                            <constraint firstItem="41H-hk-EXQ" firstAttribute="leading" secondItem="Q1U-lm-BfC" secondAttribute="leading" constant="10" id="W9a-ez-25U"/>
+                            <constraint firstAttribute="trailing" secondItem="4MG-ob-Tp2" secondAttribute="trailing" constant="10" id="aZy-fR-WeI"/>
+                            <constraint firstItem="L2f-Wb-ff3" firstAttribute="leading" secondItem="41H-hk-EXQ" secondAttribute="trailing" constant="10" id="ba8-Ka-u9O"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Q1U-lm-BfC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="ENB-rN-eyW"/>
+                    <constraint firstAttribute="trailing" secondItem="Q1U-lm-BfC" secondAttribute="trailing" id="b6c-jp-4Cq"/>
+                    <constraint firstAttribute="bottom" secondItem="Q1U-lm-BfC" secondAttribute="bottom" id="bUc-w8-NTw"/>
+                    <constraint firstItem="Q1U-lm-BfC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="ufP-1C-6gB"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="emailLbl" destination="4MG-ob-Tp2" id="Jxo-GF-oDz"/>
+                <outlet property="nameLbl" destination="L2f-Wb-ff3" id="2It-Bu-wGY"/>
+                <outlet property="profileBtn" destination="41H-hk-EXQ" id="3dv-Wf-ih7"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

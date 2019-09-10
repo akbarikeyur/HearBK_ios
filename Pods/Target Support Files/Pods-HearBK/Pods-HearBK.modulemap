@@ -1,0 +1,6 @@
+framework module Pods_HearBK {
+  umbrella header "Pods-HearBK-umbrella.h"
+
+  export *
+  module * { export * }
+}
